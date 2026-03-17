@@ -1,0 +1,59 @@
+        body {
+            background-image: url(../img/background.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-transparan {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: none;
+        }
+
+        .text-klinik {
+            color: white;
+            margin-top: -40px;
+            margin-left: 75px;
+            text-shadow: 
+            1px 1px 0px #000,
+            2px 2px 3px rgba(0,0,0,0.5);
+        }
+
+        .lead {
+            font-size: 16px;
+        }
+
+        .card-body p {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .stat-item h3 {
+            font-size: 28px;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-10px);
+            transition: 0.3s ease-in-out;
+        }
+
+        @media (max-width:768px) {
+
+            .text-klinik {
+                margin-top: 40px;
+                text-align: center;
+                margin-left: 0;
+            }
+
+            .stat-item h3 {
+                font-size: 22px;
+            }
+
+            .card {
+                margin-bottom: 20px;
+                margin-top: 40px;
+            }
+            .text-klinik{
+                margin-bottom: 20px;
+            }
+        }
