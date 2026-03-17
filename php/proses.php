@@ -42,7 +42,7 @@ $totalBiaya = $biaya - $diskon + $admin;
 <html>
 
 <head>
-    <title>Hasil Pendaftaran</title>
+    <title>Proses Pendaftaran</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
