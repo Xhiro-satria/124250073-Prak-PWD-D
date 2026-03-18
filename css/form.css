@@ -19,6 +19,10 @@
             2px 2px 3px rgba(0,0,0,0.5);
         }
 
+        .form-check-label{
+            font-size: small;
+        }
+
         .lead {
             font-size: 16px;
         }

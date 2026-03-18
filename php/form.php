@@ -22,19 +22,19 @@
                             <p>Data Pasien</p>
                             <div class="row mb-3">
                                 <div class="col">
-                                    <label>Nama</label>
-                                    <input type="text" name="nama" class="form-control" placeholder="Nama" required>
+                                    <label for="nama">Nama</label>
+                                    <input type="text" name="nama" id="nama" class="form-control" placeholder="Nama" required>
                                 </div>
                                 <div class="col">
-                                    <label>Umur</label>
-                                    <input type="number" name="umur" class="form-control" placeholder="Umur" required min="1">
+                                    <label for="umur">Umur</label>
+                                    <input type="number" name="umur" id="umur" class="form-control" placeholder="Umur" required min="1">
                                 </div>
                             </div>
 
                             <div class="row mb-3">
                                 <div class="col">
-                                    <label>Gender</label>
-                                    <select name="gender" class="form-select" required>
+                                    <label for="gender">Gender</label>
+                                    <select name="gender" id="gender" class="form-select" required>
                                         <option value="">Pilih</option>
                                         <option>Laki-laki</option>
                                         <option>Perempuan</option>
@@ -42,15 +42,15 @@
                                 </div>
 
                                 <div class="col">
-                                    <label>No HP</label>
-                                    <input type="text" name="hp" class="form-control" placeholder="No HP" required minlength="6" maxlength="15">
+                                    <label for="hp">No HP</label>
+                                    <input type="text" name="hp" id="hp" class="form-control" placeholder="No HP" required minlength="6" maxlength="15">
                                 </div>
                             </div>
                             <hr>
                             <div class="row">
                                 <div class="col">
                                     <p>Pilih Dokter</p>
-                                    <select name="dokter" class="form-select mb-3" required>
+                                    <select name="dokter" id="dokter" class="form-select mb-3" required>
                                         <option value="umum">Dokter Umum</option>
                                         <option value="gigi">Dokter Gigi</option>
                                         <option value="anak">Dokter Anak</option>
@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="col">
                                     <p>Pilih Layanan</p>
-                                    <select name="layanan" class="form-select mb-3" required>
+                                    <select name="layanan" id="layanan" class="form-select mb-3" required>
                                         <option value="">Pilih Layanan</option>
                                         <option value="konsul">Konsultasi</option>
                                         <option value="pemeriksaan">Pemeriksaan</option>
@@ -72,13 +72,17 @@
                             <p>Tanggal & Jam Kunjungan</p>
                             <div class="row">
                                 <div class="col">
-                                    <label>Tanggal</label>
-                                    <input type="date" name="tanggal" class="form-control" required>
+                                    <label for="tanggal">Tanggal</label>
+                                    <input type="date" name="tanggal" id="tanggal" class="form-control" required>
                                 </div>
                                 <div class="col">
-                                    <label>Jam</label>
-                                    <input type="time" name="jam" class="form-control" required>
+                                    <label for="jam">Jam</label>
+                                    <input type="time" name="jam" id="jam" class="form-control" required>
                                 </div>
+                            </div>
+                            <div class="form-check mt-3">
+                                <input type="checkbox" class="form-check-input" id="setuju" required>
+                                <label class="form-check-label " for="setuju"> Setuju dengan ketentuan yang berlaku </label>
                             </div>
                             <hr>
                             <div class="d-flex gap-2">
